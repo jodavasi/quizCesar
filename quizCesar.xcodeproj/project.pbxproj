@@ -15,6 +15,9 @@
 		04B57AC4242F90930095D60D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B57AC2242F90930095D60D /* LaunchScreen.storyboard */; };
 		04B57ACF242F90940095D60D /* quizCesarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B57ACE242F90940095D60D /* quizCesarTests.swift */; };
 		04B57ADA242F90940095D60D /* quizCesarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B57AD9242F90940095D60D /* quizCesarUITests.swift */; };
+		04B57AED242F94740095D60D /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B57AEB242F94740095D60D /* TableViewCell.swift */; };
+		04B57AEE242F94740095D60D /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04B57AEC242F94740095D60D /* TableViewCell.xib */; };
+		04B57AF0242F951F0095D60D /* Numero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B57AEF242F951F0095D60D /* Numero.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		04B57AD5242F90940095D60D /* quizCesarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = quizCesarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B57AD9242F90940095D60D /* quizCesarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quizCesarUITests.swift; sourceTree = "<group>"; };
 		04B57ADB242F90940095D60D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04B57AEB242F94740095D60D /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		04B57AEC242F94740095D60D /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		04B57AEF242F951F0095D60D /* Numero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Numero.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,9 @@
 				04B57AC0242F90930095D60D /* Assets.xcassets */,
 				04B57AC2242F90930095D60D /* LaunchScreen.storyboard */,
 				04B57AC5242F90930095D60D /* Info.plist */,
+				04B57AEB242F94740095D60D /* TableViewCell.swift */,
+				04B57AEC242F94740095D60D /* TableViewCell.xib */,
+				04B57AEF242F951F0095D60D /* Numero.swift */,
 			);
 			path = quizCesar;
 			sourceTree = "<group>";
@@ -233,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04B57AC4242F90930095D60D /* LaunchScreen.storyboard in Resources */,
+				04B57AEE242F94740095D60D /* TableViewCell.xib in Resources */,
 				04B57AC1242F90930095D60D /* Assets.xcassets in Resources */,
 				04B57ABF242F90900095D60D /* Main.storyboard in Resources */,
 			);
@@ -260,8 +270,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				04B57ABC242F90900095D60D /* ViewController.swift in Sources */,
+				04B57AED242F94740095D60D /* TableViewCell.swift in Sources */,
 				04B57AB8242F90900095D60D /* AppDelegate.swift in Sources */,
 				04B57ABA242F90900095D60D /* SceneDelegate.swift in Sources */,
+				04B57AF0242F951F0095D60D /* Numero.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
